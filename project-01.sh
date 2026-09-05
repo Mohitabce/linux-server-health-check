@@ -3,6 +3,11 @@
 # Purpose: System Health Monitor
 # Covers: functions, logging, error handling, command output parsing
 
+echo "===== Linux Server Health Monitor ====="
+echo "Hostname: $(hostname)"
+echo "Date: $(date)"
+echo "========================================"
+
 log_file="health_monitor.log"
 
 # ---------- Logging function ----------
